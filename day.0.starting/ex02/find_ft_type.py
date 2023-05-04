@@ -1,4 +1,4 @@
-def	all_thing_is_obj(object: any) -> int:
+def	all_thing_is_obj(object):
 	if isinstance (object, list):
 		print(f"List : {type(object)}")
 	elif isinstance(object, tuple):
@@ -12,4 +12,3 @@ def	all_thing_is_obj(object: any) -> int:
 	else:
 		print("Type not found")
 	return 42
-	
